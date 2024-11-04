@@ -25,7 +25,7 @@ export default function Navbar() {
           <Logo fillColor="white" />
         </div>
         <div className="cursor-pointer" onClick={() => setToggle(!toggle)}>
-          {toggle ? (
+          {!toggle ? (
             <RxCross2 className="text-white text-3xl" />
           ) : (
             <HiMenuAlt3 className="text-white text-3xl" />
