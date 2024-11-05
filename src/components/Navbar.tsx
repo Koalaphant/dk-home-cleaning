@@ -22,6 +22,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between py-4 md:px-10 px-7">
         <div className="w-[120px]">
           <Link href="/" onClick={() => setToggle(false)}>
+            <a className="sr-only">Home</a>
             <Logo fillColor="white" />
           </Link>
         </div>
